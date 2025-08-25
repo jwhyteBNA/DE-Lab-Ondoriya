@@ -32,3 +32,5 @@ var/
 .env
 
 src/logs
+lab.db
+lab.ducklake
