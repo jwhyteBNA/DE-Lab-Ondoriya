@@ -1,0 +1,9 @@
+# Add your project dependencies here
+duckdb
+requests
+polars
+pandas
+dotenv
+streamlit
+altair
+minio

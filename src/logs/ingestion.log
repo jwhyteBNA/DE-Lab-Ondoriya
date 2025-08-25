@@ -1,0 +1,9 @@
+2025-08-25 11:12:33,024 INFO Successfully ingested faction_distribution.csv from https://sample.ondoriya.com/faction_distribution.csv in 0.52 seconds
+2025-08-25 11:12:35,953 INFO Successfully ingested households.csv from https://sample.ondoriya.com/households.csv in 2.93 seconds
+2025-08-25 11:12:36,141 INFO Successfully ingested language_building_blocks.csv from https://sample.ondoriya.com/language_building_blocks.csv in 0.19 seconds
+2025-08-25 11:12:36,703 INFO Successfully ingested language_roots.csv from https://sample.ondoriya.com/language_roots.csv in 0.56 seconds
+2025-08-25 11:12:37,255 INFO Successfully ingested moons.csv from https://sample.ondoriya.com/moons.csv in 0.55 seconds
+2025-08-25 11:12:56,450 INFO Successfully ingested people.csv from https://sample.ondoriya.com/people.csv in 19.19 seconds
+2025-08-25 11:12:56,952 INFO Successfully ingested planets.csv from https://sample.ondoriya.com/planets.csv in 0.50 seconds
+2025-08-25 11:12:57,411 INFO Successfully ingested region_biome.csv from https://sample.ondoriya.com/region_biome.csv in 0.46 seconds
+2025-08-25 11:12:57,910 INFO Successfully ingested regions.csv from https://sample.ondoriya.com/regions.csv in 0.50 seconds
