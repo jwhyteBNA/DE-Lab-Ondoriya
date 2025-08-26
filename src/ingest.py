@@ -1,12 +1,14 @@
 import os
 import io
 import time
-import logging
+from logger import get_logger
 import requests
 from minio import Minio
 from dotenv import load_dotenv
 
 load_dotenv()
+
+logger = get_logger("ingestion.log")
 
 MINIO_EXTERNAL_URL = os.getenv('MINIO_EXTERNAL_URL')
 MINIO_BUCKET_NAME = os.getenv('MINIO_BUCKET_NAME')
@@ -18,22 +20,6 @@ minio_client = Minio(
 )
 
 BASE_URL = os.getenv('BASE_URL')
-
-LOG_DIR = os.path.join(os.path.dirname(__file__), "logs")
-os.makedirs(LOG_DIR, exist_ok=True)
-LOG_FILE_PATH = os.path.join(LOG_DIR, "ingestion.log")
-
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_FILE_PATH),
-        logging.StreamHandler()
-    ]
-)
-
-logger = logging.getLogger(__name__)
 
 FILES_TO_INGEST = [
     "faction_distribution.csv",
